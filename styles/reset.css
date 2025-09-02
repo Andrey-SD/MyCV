@@ -1,0 +1,60 @@
+/* reset.css - CSS Reset Template */
+
+/* Box sizing reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul,
+figure,
+hr,
+fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default border */
+fieldset, img {
+  border: 0;
+}
+
+/* Remove default background */
+body {
+  background: none;
+}
+
+/* Remove default font styles */
+body, button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1;
+  color: inherit;
+}
+
+/* Remove link underline */
+a {
+  /* text-decoration: none; */
+  color: inherit;
+}
+
+/* Remove outline on focused elements (optional, accessibility!) */
+:focus {
+  outline: none;
+}
+
+/* Set HTML5 display roles */
+article, aside, details, figcaption, figure,
+footer, header, main, nav, section, summary {
+  display: block;
+}
