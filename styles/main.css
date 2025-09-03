@@ -228,3 +228,8 @@ body {
   text-indent: 1rem;
   line-height: 1.2rem;
 }
+
+.sub-link {
+  color: #3188c7;
+  font-size: 0.8em;
+}
